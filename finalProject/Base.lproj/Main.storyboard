@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SjF-dc-7li">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SjF-dc-7li">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -146,64 +146,42 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N82-hf-oHc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2274" y="875"/>
-        </scene>
-        <!--Page View Controller One-->
-        <scene sceneID="Dfx-57-vGO">
-            <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="vYG-ww-bzD" customClass="PageViewControllerOne" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="cDo-5Q-p2m"/>
-                </pageViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Sn7-xG-gIl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-871" y="818"/>
+            <point key="canvasLocation" x="-877" y="875"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="c59-S5-FFN">
             <objects>
                 <viewController id="unS-QP-ian" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="crd-Tp-HVv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="hnD-Ru-2Tc"/>
                     </view>
-                    <navigationItem key="navigationItem" id="vLM-sU-miy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EUC-77-pdo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3046" y="1606"/>
+            <point key="canvasLocation" x="-1272" y="2358"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TZX-WR-hCW">
             <objects>
                 <viewController id="sw6-3D-jBB" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iVg-jX-fYu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Ssz-oY-iZO"/>
                     </view>
-                    <navigationItem key="navigationItem" id="3ZH-sA-kfT"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ghK-9N-GT6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1572" y="1606"/>
-        </scene>
-        <!--Page View Controller Two-->
-        <scene sceneID="TSX-dd-MFC">
-            <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="dHF-qv-iZc" customClass="PageViewControllerTwo" customModule="finalProject" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="VQU-qv-8zl"/>
-                </pageViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="b8w-ET-jtQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-868" y="2230"/>
+            <point key="canvasLocation" x="-499" y="2358"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1Cs-07-C7L">
             <objects>
-                <viewController storyboardIdentifier="historyBZero" id="Xza-H3-mcq" sceneMemberID="viewController">
+                <viewController id="Xza-H3-mcq" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VL1-aE-Rum">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -215,26 +193,8 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                        </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
-                        <viewLayoutGuide key="safeArea" id="myL-HQ-k8G"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="sGo-wX-kQB"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5yk-ml-Egl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-868" y="2918"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="yca-La-7uJ">
-            <objects>
-                <viewController storyboardIdentifier="historyBOne" id="ZsK-MH-iZV" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="rNn-tf-PX8">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rom-o1-OyN">
-                                <rect key="frame" x="117" y="738.5" width="180" height="99"/>
+                                <rect key="frame" x="117" y="664.5" width="180" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="23"/>
                                 <color key="tintColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -244,12 +204,13 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
-                        <viewLayoutGuide key="safeArea" id="6ZG-sS-4CW"/>
+                        <viewLayoutGuide key="safeArea" id="myL-HQ-k8G"/>
                     </view>
+                    <navigationItem key="navigationItem" id="sGo-wX-kQB"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7hc-cj-qPs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5yk-ml-Egl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-140" y="2919"/>
+            <point key="canvasLocation" x="377" y="2450"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Fo4-hw-In4">
@@ -268,7 +229,7 @@
                                     <color key="titleColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="vYG-ww-bzD" kind="show" id="PNi-lC-de1"/>
+                                    <segue destination="vLg-7J-yWN" kind="show" id="dxW-gI-3Se"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="H I S T O R Y " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EME-VE-wdh">
@@ -448,9 +409,9 @@
         <!--View Controller-->
         <scene sceneID="rZP-6D-QXx">
             <objects>
-                <viewController storyboardIdentifier="historyZero" id="vLg-7J-yWN" sceneMemberID="viewController">
+                <viewController id="vLg-7J-yWN" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jqr-VX-Kez">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="H I S T O R Y " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahI-TJ-axL">
@@ -480,6 +441,18 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GX6-Nm-NBB">
+                                <rect key="frame" x="117" y="446" width="180" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="23"/>
+                                <color key="tintColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="S T A R T" backgroundImage="capsule.fill" catalog="system">
+                                    <color key="titleColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="u0B-jq-cBD" kind="show" id="hMa-Ba-B9g"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <viewLayoutGuide key="safeArea" id="yTN-Pb-epb"/>
@@ -488,7 +461,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6wQ-gT-TBN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-867" y="1485"/>
+            <point key="canvasLocation" x="376.81159420289856" y="874.55357142857144"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OU2-vl-rzg">
@@ -598,28 +571,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQt-rc-60g">
-                                <rect key="frame" x="96" y="466" width="223" height="51"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PATH 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jZe-G4-FLe">
+                                <rect key="frame" x="157" y="250" width="100" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
-                                <state key="normal" title="P A T H   T W O">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="sw6-3D-jBB" kind="show" id="GgN-yD-epF"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zlE-i6-gta">
-                                <rect key="frame" x="98" y="228" width="219" height="51"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PATH 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dB3-HA-dCB">
+                                <rect key="frame" x="157" y="388" width="100" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="30"/>
-                                <state key="normal" title="P A T H   O N E">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="unS-QP-ian" kind="show" id="sDp-8c-dvJ"/>
-                                </connections>
-                            </button>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <viewLayoutGuide key="safeArea" id="zSv-zl-yYx"/>
@@ -628,14 +593,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mvu-TG-ikf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2275" y="1606"/>
+            <point key="canvasLocation" x="-878" y="1655"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8xc-0p-Y3N">
             <objects>
-                <viewController storyboardIdentifier="historyOne" id="u0B-jq-cBD" sceneMemberID="viewController">
+                <viewController id="u0B-jq-cBD" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LkJ-R0-hVt">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OVERVIEW" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tCr-yO-vGd">
@@ -645,6 +610,15 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vyP-So-5cb">
+                                <rect key="frame" x="128" y="640.5" width="180" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="23"/>
+                                <color key="tintColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="NEXT" backgroundImage="capsule.fill" catalog="system">
+                                    <color key="titleColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <viewLayoutGuide key="safeArea" id="1dN-cc-Al1"/>
@@ -653,36 +627,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Mz-E2-DHk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-196" y="1485"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="eEJ-hd-3Nx">
-            <objects>
-                <viewController storyboardIdentifier="historyTwo" id="OeQ-pW-cmJ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="kkO-Dr-NOL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hfw-Mo-KyM">
-                                <rect key="frame" x="117" y="723.5" width="180" height="99"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="23"/>
-                                <color key="tintColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="NEXT" backgroundImage="capsule.fill" catalog="system">
-                                    <color key="titleColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="dHF-qv-iZc" kind="show" id="1I0-cK-u4Q"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
-                        <viewLayoutGuide key="safeArea" id="O1q-7U-TN4"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8fd-se-Au5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="487" y="1485"/>
+            <point key="canvasLocation" x="377" y="1655"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gvI-B8-6cm">
